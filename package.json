@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Test different React DnD",
   "main": ".index.js",
-  "type": "module",
   "babel": {
     "presets": [
       "@babel/preset-env",

@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Test different React DnD",
   "main": ".index.js",
+  "type": "module",
   "babel": {
     "presets": [
       "@babel/preset-env",
@@ -10,7 +11,7 @@
     ]
   },
   "scripts": {
-    "start": "webpack-dev-server --open", 
+    "start": "webpack-dev-server --open",
     "build": "rmdir /s dist && webpack"
   },
   "author": "",
